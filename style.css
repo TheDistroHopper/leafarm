@@ -167,6 +167,11 @@ select {
 .location {
     border-bottom: 1px solid white;
     padding: 2px 0 1px 20px;
+    cursor: pointer;
+}
+
+.location:hover {
+    background: #19585e52;
 }
 
 .location-page-title {
