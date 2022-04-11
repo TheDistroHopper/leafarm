@@ -67,8 +67,14 @@ const prediction = (form, e) => {
     .then((r) => r.text())
     .then((res) => {
       if (res.includes("healthy")) {
-        document.querySelector(".is-affected").innerText = "No";
-      } if (res === "Tomato__Tomato_mosaic_virus" ) {
+        document.querySelector(".affected").innerText = "No";
+        document.querySelector(".disease-name").innerText = res.replace(
+          /_+/g,
+          " "
+        );
+        document.querySelector('.cure').innerText = "-"
+        document.querySelector('.cure-link').innerText = "-"
+      } else if (res === "Tomato__Tomato_mosaic_virus" ) {
         document.querySelector(".is-affected").innerText = "Yes";
         document.querySelector(".disease-name").innerText = "Tomato mosaic virus"
         document.querySelector(".cure").innerText = data[res]["Cure"];
@@ -78,7 +84,7 @@ const prediction = (form, e) => {
         ).innerHTML = `<a style="text-decoration: none; color: white; cursor: pointer;" href="${buyLink}" target="blank">Click Here</a>`;
 
       } else {
-        document.querySelector(".is-affected").innerText = "Yes";
+        document.querySelector(".affected").innerText = "Yes";
         document.querySelector(".disease-name").innerText = res.replace(
           /_+/g,
           " "
