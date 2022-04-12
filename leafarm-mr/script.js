@@ -22,9 +22,9 @@ const data = {
     Cure: "कॉपर स्प्रेचा वापर (बुरशीनाशक)",
     Link: "https://www.amazon.in/BAVISTIN-50-W-P-Systematic-Fungicide/dp/B07DQL6VT6/ref=asc_df_B07DQL6VT6/?tag=googleshopdes-21&linkCode=df0&hvadid=397009291831&hvpos=&hvnetw=g&hvrand=16490552948066868948&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9301185&hvtargid=pla-838319413916&psc=1&ext_vrnc=hi",
   },
-  Tomato_Leaf_Mold: {
-    Name: "टोमॅटो लीफ मोल्ड",
-    Cure: "कॉपर स्प्रेचा वापर (बुरशीनाशक)",
+  Tomato__Tomato_YellowLeaf__Curl_Virus: {
+    Name: "टोमॅटो येलो लिफ कर्ल वायरस",
+    Cure: "जलसिंचन किंवा इतर कोणत्याही माध्यमातून न्युनिकोटिनोइड कीटकनाशकाची फवारणी करावी.",
     Link: "https://www.amazon.in/BAVISTIN-50-W-P-Systematic-Fungicide/dp/B07DQL6VT6/ref=asc_df_B07DQL6VT6/?tag=googleshopdes-21&linkCode=df0&hvadid=397009291831&hvpos=&hvnetw=g&hvrand=16490552948066868948&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9301185&hvtargid=pla-838319413916&psc=1&ext_vrnc=hi",
   },
   Tomato_healthy: {
@@ -48,7 +48,7 @@ const data = {
     Link: "https://www.amazon.in/Veganie-x-Neem-Oil-Spray-Gardening/dp/B09Q96W2ZT/ref=asc_df_B09Q96W2ZT/?tag=googleshopdes-21&linkCode=df0&hvadid=545088175664&hvpos=&hvnetw=g&hvrand=14689257005258475059&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9301910&hvtargid=pla-1613246208692&th=1",
   },
   Tomato_Early_blight: {
-    Name: "टोमॅटो लवकर अनिष्ट परिणाम",
+    Name: "टोमॅटो अर्ली ब्लाइट",
     Cure: "बोनाइड लिक्विड कॉपर बुरशीनाशकाची फवारणी करा.",
     Link: "https://www.amazon.com/Bonide-811-Copper-Fungicide-473ML/dp/B00BSULSHA",
   },
@@ -58,7 +58,7 @@ const data = {
     Link: "https://www.amazon.in/Dow-Agrosciences-Dithane%C3%82%C2%AE-Fungicide-भाज्या/dp/B08MQG3Z47/ref=asc_df_B08MQG3Z47/?tag=googleshopdes-21&linkCode=df0&hvadid=396986444787&hvpos=&hvnetw=g&hvrand=9720395357961271083&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9301910&hvtargid=pla-1402350129067&psc=1&ext_vrnc=hi",
   },
   Potato___Late_blight: {
-    Name: "बटाटा उशीरा अनिष्ट परिणाम",
+    Name: "बटाटा लेट ब्लाइट",
     Cure: "डकोनिल बुरशीनाशक कॉन्सन्ट्रेट नावाच्या बुरशीनाशकाची फवारणी करा.",
     Link: "https://www.amazon.in/Daconil-Fungicide-Concentrate-16-oz/dp/B000RUGIY0",
   },
@@ -73,7 +73,7 @@ const data = {
     Link: "https://www.amazon.in/Dow-Agrosciences-Dithane%C3%82%C2%AE-Fungicide-भाज्या/dp/B08MQG3Z47/ref=asc_df_B08MQG3Z47/?tag=googleshopdes-21&linkCode=df0&hvadid=396986444787&hvpos=&hvnetw=g&hvrand=9720395357961271083&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9301910&hvtargid=pla-1402350129067&psc=1&ext_vrnc=hi",
   },
   Potato___Early_blight: {
-    Name: "बटाटा लवकर अनिष्ट परिणाम",
+    Name: "बटाटा अर्ली ब्लाइट",
     Cure: "मॅन्कोझेब आधारित बुरशीनाशकाची फवारणी करा.",
     Link: "https://www.amazon.in/Dow-Agrosciences-Dithane%C3%82%C2%AE-Fungicide-भाज्या/dp/B08MQG3Z47/ref=asc_df_B08MQG3Z47/?tag=googleshopdes-21&linkCode=df0&hvadid=396986444787&hvpos=&hvnetw=g&hvrand=9720395357961271083&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9301910&hvtargid=pla-1402350129067&psc=1&ext_vrnc=hi",
   },
