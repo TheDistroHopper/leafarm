@@ -138,6 +138,7 @@ select {
     flex-direction: column;
     gap: 20px;
     margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .item-title {
@@ -153,7 +154,7 @@ select {
 
 .item-content {
     width: 80vw;
-    height: 20px;
+    /* height: 20px; */
     background: rgba(255, 255, 255, 0.176);
     padding: 10px;
     padding-left: 20px;
