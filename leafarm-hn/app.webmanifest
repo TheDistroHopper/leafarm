@@ -1,0 +1,22 @@
+{
+    "name": "Leafarm",
+    "short_name": "Leafarm",
+    "start_url": "./",
+    "orientation": "portrait",
+    "theme_color": "#ffc252",
+    "scope": "./",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "assets/LOGO.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/maskable-icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

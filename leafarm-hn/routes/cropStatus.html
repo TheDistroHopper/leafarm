@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crop Status</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../script.js"></script>
+  </head>
+  <body>
+    <div class="status">
+      <h1 class="status-title">फसल की स्थिति</h1>
+      <div class="status-container">
+        <form
+          style="
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            width: 100%;
+            gap: 1vh;
+            justify-content: center;
+          "
+          onsubmit="prediction(this, event)"
+          enctype="multipart/form-data"
+        >
+          <label
+            for="inp-img"
+            style="
+              cursor: pointer;
+              border: none;
+              background-color: #8ac6c2;
+              font-weight: bolder;
+              border-radius: 1vh;
+              padding: 5px;
+            "
+            >+</label
+          >
+          <input id="inp-img" style="display: none" type="file" name="file" />
+          <input
+            style="
+              background-color: #3b7f83;
+              outline: none;
+              border: none;
+              color: white;
+              cursor: pointer;
+              font-weight: bold;
+              padding: 1vh;
+              border-radius: 1vh;
+            "
+            type="submit"
+            name="submit"
+            value="फ़ोटो अपलोड करें"
+          />
+        </form>
+        <div class="status-item">
+          <div class="item-title">बीमारी पाई गई थी</div>
+          <div class="affected item-content">-</div>
+        </div>
+        <div class="status-item">
+          <div class="item-title">बीमारी का नाम</div>
+          <div class="disease-name item-content">-</div>
+        </div>
+        <div class="status-item">
+          <div class="item-title">उपाय</div>
+          <div class="cure item-content">-</div>
+        </div>
+        <div class="status-item">
+          <div class="item-title">खरेदी करे</div>
+          <div class="cure-link item-content">-</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
