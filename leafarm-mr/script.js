@@ -87,7 +87,8 @@ const data = {
 const prediction = (form, e) => {
   e.preventDefault();
   const form_data = new FormData(form);
-  fetch("https://leafarm.loca.lt/uploader", {
+  // fetch("https://leafarm.loca.lt/uploader", {
+  fetch("https://4e45-103-211-112-254.ngrok.io/uploader", {
     method: "POST",
     body: form_data,
   })
