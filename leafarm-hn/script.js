@@ -88,7 +88,7 @@ const prediction = (form, e) => {
   e.preventDefault();
   const form_data = new FormData(form);
   // fetch("https://leafarm.loca.lt/uploader", {
-  fetch("https://leaffarm.pagekite.me/uploader", {
+  fetch("http://e83d-103-211-112-133.ngrok.io/uploader", {
     method: "POST",
     body: form_data,
   })
